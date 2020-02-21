@@ -1,0 +1,81 @@
+@font-face{
+  font-family: 'ArchivoNarrow-Regular';
+  src: url(../fonts/archivo-narrow/ArchivoNarrow-Regular.otf);
+}
+
+@font-face{
+  font-family: 'Montserrat-Light';
+  src: url(../fonts/montserrat/Montserrat-Light.otf);
+}
+
+@font-face{
+  font-family: 'advent';
+  src: url(../fonts/advent-pro/AdventProMedium.ttf);
+}
+
+body, html{
+	height: 100%;
+	margin: 0;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+#root{
+	height: 100%;
+}
+
+.bkg-img{
+	background-image: url('../assets/feboff2.jpg');
+	height: 100%;
+	max-width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	font-size: 22px;
+}
+
+.container{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: white;
+}
+
+.top-container{
+	font-family: 'ArchivoNarrow-Regular';
+}
+
+.middle-container{
+	font-family: 'Montserrat-Light';
+	padding-bottom: 10px;
+}
+
+.bottom-container{
+	font-family: 'advent';
+}
+
+.bottom-container span img{
+	margin: 1%;
+}
+
+.icon-container{
+	display: flex;
+	justify-content: space-between;
+}
+
+.icon-style{
+	display: grid;
+	font-size: 40px;
+}
+
+.icon-footer{
+	font-size: 10px;
+	font-weight: 100;
+	padding-top: 3px;
+}
